@@ -1,0 +1,66 @@
+/* Center the entire body and set a dark theme */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    min-height: 100vh;
+    margin: 0;
+}
+h1 {
+    color: #FF6F00;
+    font-family: 'Arial Black', sans-serif;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-left: 100px;
+}
+.current-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    border: 2px solid #FF6F00;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+/* Style for the time display */
+h4 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #333;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+/* Stylish buttons */
+button {
+    width: 90%;
+    height: 45px;
+    margin: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FF6F00;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover and active effects for buttons */
+button:hover {
+    background-color: #ff8c00;
+}
+
+button:active {
+    transform: scale(0.98);
+    background-color: #e65c00;
+}
